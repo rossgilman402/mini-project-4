@@ -1,18 +1,48 @@
 /* Temporary Styles */
-* {
+/* * {
   border: 1px solid red;
   padding: 0;
   margin: 0;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(232, 224, 224);
 }
 
 /* Header Styles */
-h1 {
-  text-align: center;
-  margin: 25px;
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid grey;
+  border-radius: 10px;
+  background-color: rgb(2, 2, 94);
+  margin: 30px;
 }
 
-.input-button {
-  padding: 25px;
+h1 {
+  margin: 25px;
+  border: 3px solid rgb(68, 67, 67);
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgb(232, 224, 224);
+}
+
+#start-button {
+  margin: 20px 30px;
+  padding: 10px;
+  border: 3px solid rgb(68, 67, 67);
+  border-radius: 10px;
+  background-color: rgb(232, 224, 224);
+}
+
+/* End game styles */
+#end-game {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 0px;
 }
 
 /* Main Styles */
@@ -23,10 +53,56 @@ main {
 
 /* left side styles */
 .left {
-  flex: 1 0 500px;
+  flex: 1 0 250px;
+  margin: 35px;
+  padding: 10px;
+  border: 3px solid grey;
+  border-radius: 10px;
+  background-color: rgb(2, 2, 94);
+}
+
+.left h2 {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 60px;
+  border: 3px solid rgb(68, 67, 67);
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(232, 224, 224);
+}
+
+#word-text {
+  text-align: center;
+  margin-top: 10px;
+  border: 3px solid rgb(68, 67, 67);
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(232, 224, 224);
 }
 
 /* right side styles */
 .right {
-  flex: 1 0 500px;
+  flex: 1 0 250px;
+  margin: 35px;
+  padding: 10px;
+  border: 3px solid grey;
+  border-radius: 10px;
+  background-color: rgb(2, 2, 94);
+}
+
+.score-card {
+  text-align: center;
+  margin-top: 10px;
+  border: 3px solid rgb(68, 67, 67);
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgb(232, 224, 224);
+}
+
+#reset-button {
+  margin: 20px 30px;
+  padding: 10px;
+  border: 3px solid rgb(68, 67, 67);
+  border-radius: 10px;
+  background-color: rgb(232, 224, 224);
 }

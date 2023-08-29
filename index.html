@@ -10,8 +10,9 @@
     <!-- introduce the game in the header -->
     <header>
       <h1>Welcome to the Word Guess Game!</h1>
-      <input type="button" class="input-button" />
+      <input type="button" id="start-button" value="Start" />
     </header>
+    <h2 id="end-game"></h2>
 
     <!-- in the main create two sections one for the button to start and the current
     word to solve. the second section to include the current time left and the
@@ -19,13 +20,17 @@
     <main>
       <!-- this section will be a box with an empty string and button -->
       <section class="left">
-        <h2>_ _ _ _ _ _</h2>
+        <h2>Type into the keyboard to guess the word</h2>
+        <h2 id="word-text">Guess the word here!</h2>
       </section>
 
       <section class="right">
-        <h2>Time Left:</h2>
-        <p>Wins:</p>
-        <p>Loses:</p>
+        <input type="button" id="reset-button" value="Reset" />
+        <div class="score-card">
+          <h2 id="count-text">Time Left:</h2>
+          <p id="win-text">Wins:</p>
+          <p id="lose-text">Loses:</p>
+        </div>
       </section>
     </main>
 
